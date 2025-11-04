@@ -76,8 +76,8 @@ namespace Game {
         play = true
     }
 
-    // block="step to the left"
-    // block.loc.nl="stapje naar links"
+    //% block="step to the left"
+    //% block.loc.nl="stapje naar links"
     export function stepLeft() {
         if (!play) return
         led.unplot(player_x, player_y)
@@ -86,8 +86,8 @@ namespace Game {
         led.plot(player_x, player_y)
     }
 
-    // block="step to the right"
-    // block.loc.nl="stapje naar rechts"
+    //% block="step to the right"
+    //% block.loc.nl="stapje naar rechts"
     export function stepRight() {
         if (!play) return
         led.unplot(player_x, player_y)
